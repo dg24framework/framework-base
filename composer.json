@@ -1,12 +1,12 @@
 {
   "name" : "horseluke/php-dg24framework_framework-base-minimal",
-  "description" : "DG24 - Digital Garden 24 PHP Framework",
+  "description" : "DG24 - Digital Garden 24 PHP Framework (Base Minimal Component)",
   "type" : "framework",
   "keywords" : [
     "framework",
     "dg24"
   ],
-  "homepage" : "https://github.com/php-dg24framework/framework-base-minimal",
+  "homepage" : "https://github.com/HorseLuke/php-dg24framework_framework-base-minimal",
   "license" : "Apache-2.0",
   "authors" : [{
       "name" : "horseluke",
@@ -21,8 +21,7 @@
   },
   "autoload" : {
     "psr-4" : {
-      "DG24\\" : "src/DG24",
-      "DG24Ext\\" : "src/DG24Ext"
+      "DG24\\" : "src/DG24"
     }
   }
 }
